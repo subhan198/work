@@ -1,0 +1,181 @@
+body{
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: black;
+}
+
+    
+
+header{
+    display: flex;
+    justify-content:space-between;
+
+}
+
+.logo img{
+    width: 200px;
+}
+
+nav ul{
+    display: flex;
+}
+nav ul li {
+    display: flex;
+    padding: 5px;
+   list-style-type: none;
+   font-size: 15px;
+  
+}
+nav ul li a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+nav li a:hover{
+    color: #ff8c69;
+    transition-property: all 0.4s ease 0s;
+}
+
+
+.image img{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.item2{
+    display: flex;
+    padding-top: 5%;
+    padding-left: 5%;
+   
+}
+
+
+h1{
+    width: 380px;
+    color: white;
+}
+.para{
+    width: 220px;
+    color: white;
+}
+.monkey1 img{
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    padding: 10px;
+}
+
+.monkey2 img{
+    width: 150px;
+    padding: 10px;
+
+}
+.first{
+    color: rgb(219, 212, 17);
+    padding-left: 5%;
+    font-size: 30px;
+
+}
+.second{
+    color:white;
+    padding-left: 5%;
+    font-size: 20px;
+
+}
+.fourth{
+color: white;
+font-family: "Montserrate";
+display: flex;
+justify-content: space-between;
+padding-left: 5%;
+padding-right: 10%;
+
+}
+.sixth{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: darkgoldenrod;
+   
+    
+    
+}
+.logo{
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    inset-inline-start:inherit;
+    align-items: center;
+    font-weight: bold;
+    font-size: 200%;
+   
+}
+
+.rite{
+    width: 300px;
+    padding-left:3%;
+    font-size: 20px;
+
+}
+
+button{
+width: 200px;
+color: #bfc500;
+background-color: black;
+font-weight: 600;
+text-align: center;
+border-radius: 8px;
+border: 0px;
+font-size: 16px;
+height: 75px;
+width: 240px;
+margin-left: 50px;
+}
+button:hover{
+    background-color: aliceblue;
+    color: black;
+    transition-property: all 2.4s ease 2s;
+    
+}
+.line{
+    color: whitesmoke;
+    font-display:solid;
+    margin-top: 5%;
+
+   
+}
+.item3{
+    display: flex;
+    justify-content: center;
+}
+.study  {
+    color:white;
+    width: 300px;
+    font-weight: bold;
+    font-size:15px;
+}
+.monkey3 img{
+    width: 380px;
+}
+h1{
+    width: 100%;
+}
+.sat1{
+    width: 370px;
+    color: white;
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+
+
+ li img{
+    width: 120px;
+    padding-right:30px;
+
+}
+
+
