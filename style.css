@@ -164,7 +164,7 @@ color: white;
 font-family: "Montserrate";
 word-spacing: 2px;
 line-height: 26px;
-.}
+}
 .item3 p a{
     color: #bfc500;
 }
@@ -215,14 +215,46 @@ h1{
 }
 .item0 img{
     background-color: #bfc500;
+    width:380px;
 }
+/*screen size all mobile cheak*/
 
-
-@media screen(max-width:768){
+@media (max-width:575px){
     header{
-      
-        justify-content:center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
+body {
+    margin-left: 37px;
+    margin-right: 21px;
+    background-color: black;
+} 
+    .item2{
+        color: white;
+        font-family: "Montserrate";
+        display: flex;
+        justify-content: space-between;
+        margin-top: 14px;
+        margin-left: 0px;
+        margin-right: 20px;
+    }
+    .monkey1 img {
+    width: 132px;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    padding-right: 5%;}
+
+    .monkey2 img {
+        width: 132px;
+        display: flex;
+        background-position: center;
+        background-size: cover;
+    }
+
+
 
 
 
