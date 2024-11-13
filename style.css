@@ -1,6 +1,6 @@
 body{
-    padding-left: 50px;
-    padding-right: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
     background-color: black;
 }
 
@@ -44,34 +44,43 @@ nav li a:hover{
     background-position: center;
 }
 .item2{
+color: white;
+font-family: "Montserrate";
+display: flex;
+justify-content:space-between;
+margin-top: 30px;
+margin-left:30px;
+margin-right: 30px;
+
+}
+.monkey1 img{
+  width: 170px;
+  display: flex;
+  background-position: center;
+  background-size: cover;
+padding-right:5% ;
+
+}
+.monkey2 img{
+    width: 170px;
     display: flex;
-    padding-top: 5%;
-    padding-left: 5%;
+    background-position: center;
+    background-size: cover;
+
+
+ 
    
 }
-
 
 h1{
     width: 380px;
     color: white;
 }
-.para{
-    width: 220px;
+p{
     color: white;
 }
-.monkey1 img{
-    display: flex;
-    background-size: cover;
-    background-position: center;
-    width: 150px;
-    padding: 10px;
-}
 
-.monkey2 img{
-    width: 150px;
-    padding: 10px;
 
-}
 .first{
     color: rgb(219, 212, 17);
     padding-left: 5%;
@@ -94,30 +103,23 @@ padding-right: 10%;
 
 }
 .sixth{
-    display: flex;
-    justify-content: center;
     width: 100%;
-    background-color: darkgoldenrod;
-   
-    
-    
-}
-.logo{
     display: flex;
-    background-position: center;
-    background-size: cover;
-    inset-inline-start:inherit;
+    justify-content: space-around;
     align-items: center;
-    font-weight: bold;
-    font-size: 200%;
+    background-color:#bfc500
    
+    
 }
-
-.rite{
-    width: 300px;
-    padding-left:3%;
-    font-size: 20px;
-
+.sixth h1{
+    color: black;
+    width: 200px;
+  
+}
+.sixth p{
+    color: black;
+    width: 200px;
+   
 }
 
 button{
@@ -147,18 +149,27 @@ button:hover{
    
 }
 .item3{
+    color: white;
+    font-family: "Montserrate";
     display: flex;
-    justify-content: center;
+    margin: 30px;
+    justify-content: space-between;
 }
-.study  {
-    color:white;
-    width: 300px;
-    font-weight: bold;
-    font-size:15px;
+    
+
+
+.item3 p{
+    width: 100%;
+color: white;
+font-family: "Montserrate";
+word-spacing: 2px;
+line-height: 26px;
+.}
+.item3 p a{
+    color: #bfc500;
 }
-.monkey3 img{
-    width: 380px;
-}
+
+
 h1{
     width: 100%;
 }
@@ -166,16 +177,58 @@ h1{
     width: 370px;
     color: white;
 }
-ul{
+.item7{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    font-size: small;
+    color: whitesmoke;
+
+}
+.item9{
+    display: flex;
+    justify-content: space-between;
+    text-align:start;
+    word-spacing: 4px;
+    font-family: "Montserrate";
+    padding-top: 4%;
+    
+}
+.item0{
+    color: white;
+    display: flex;
+    font-family: "Montserrate";
+    font-size: small;
+    padding-left: 2%;
+    
+    
+}
+.item0 h2{
+    color: #bfc500;
+}
+.q{
+    display: flex;
+
+}
+.item0 p{
+    padding-left:5%;
+ 
+}
+.item0 img{
+    background-color: #bfc500;
 }
 
 
- li img{
-    width: 120px;
-    padding-right:30px;
-
+@media screen(max-width:768){
+    header{
+      
+        justify-content:center;
 }
+
+
+
+
+
+
+   
 
 
