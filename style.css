@@ -155,6 +155,9 @@ button:hover{
     margin: 30px;
     justify-content: space-between;
 }
+.item3 img{
+    width:380px;
+}
     
 
 
@@ -168,9 +171,12 @@ line-height: 26px;
 .item3 p a{
     color: #bfc500;
 }
+.item3 img{
+    width:380px;
+}
 
 
-h1{
+.type1 h1{
     width: 100%;
 }
 .sat1{
@@ -193,9 +199,13 @@ h1{
     padding-top: 4%;
     
 }
+.type3 h1{
+    width:200px;
+}
 .item0{
     color: white;
     display: flex;
+    justify-content: space-between;
     font-family: "Montserrate";
     font-size: small;
     padding-left: 2%;
@@ -211,56 +221,224 @@ h1{
 }
 .item0 p{
     padding-left:5%;
- 
+
 }
 .item0 img{
-    background-color: #bfc500;
-    width:380px;
-}
-/*screen size all mobile cheak*/
+background-color:yellow;
+width:200px;
 
-@media (max-width:575px){
-    header{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 }
+
+/*screen size all mobile cheak*/
+@media(max-width:575px){
 body {
-    margin-left: 37px;
-    margin-right: 21px;
-    background-color: black;
-} 
-    .item2{
+margin-left: 50px;
+margin-right: 50px;
+background-color: black;
+}
+header{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.logo img{
+        display: flex;
+        justify-content: center;
+    }
+    .item2 {
         color: white;
-        font-family: "Montserrate";
         display: flex;
         justify-content: space-between;
-        margin-top: 14px;
-        margin-left: 0px;
-        margin-right: 20px;
-    }
-    .monkey1 img {
-    width: 132px;
+        margin-top: 5px;
+        margin-left: 2px;
+}
+
+h1 {
+    width: 217px;
+}
+.monkey1 img {
+    width: 144px;
     display: flex;
     background-position: center;
-    background-size: cover;
-    padding-right: 5%;}
+
+    padding-right: 5%;
+}
+.monkey2 img {
+    width: 144px;
+    display: flex;
+    background-position: center;
+    background-size: cover;}
+
+    .first{
+        color: rgb(219, 212, 17);
+        padding-left: 0%;
+        font-size: 29px;
+    }
+    .second {
+        color: white;
+        padding-left: 3%;
+        font-size: 18px;
+    }
+    .fourth {
+        color: white;
+        justify-content: space-between;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .sixth {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #bfc500;
+        font-size: 11px;
+    }
+    .sixth h1 {
+        color: black;
+        width: 167px;
+    }
+    .sixth p {
+        color: black;
+        width: 111px;
+    }
+    button {
+        width: 200px;
+        color: #bfc500;
+        background-color: black;
+        font-weight: 600;
+        text-align: center;
+        border-radius: 12px;
+        border: 4px;
+        font-size: 14px;
+        height: 51px;
+        width: 161px;
+        margin-left: 9px;
+    }
+    .item3 {
+        color: white;
+        display: flex;
+        margin: 0px;
+        justify-content: space-between;
+        
+    }
+
+
+.item3 img {
+    padding-top: 20px;
+    width: 250px;
+    height:200px ;
+}
+
+.item3 p {
+    width: 100%;
+    color: white;
+    word-spacing: 2px;
+    line-height: 16px;
+    font-size: 10px;
+   
+}
+.type1 h1 {
+    width: 100%;
+}
+.item7 {
+  
+    font-size: 10px;
+    color: whitesmoke;
+}
+.item9 {
+    display: flex;
+    word-spacing: 4px;
+    padding-top: 4%;
+}
+h1 {
+    width: 100%;
+}
+.item0 {
+    color: white;
+    display: flex;
+    font-size: 10px;
+    padding-left: 0%;
+}
+
+}
+/*screen size 576px cheak*/
+@media(max-width:767px){
+    body {
+        margin-left:23px;
+        margin-right:50px;
+        background-color:black;
+    }
+    .monkey1 img {
+        width: 140px;
+        display: flex;
+        background-position: center;
+        background-size: cover;
+        padding-right: 5%;
+    }
+
 
     .monkey2 img {
-        width: 132px;
+        width: 140px;
         display: flex;
         background-position: center;
         background-size: cover;
     }
+.item2 {
+    color: white;
+    font-family:"Montserrate";
+    display: flex;
+    justify-content:space-between;
+    margin-left:0px; 
+}
+.first {
+    color: rgb(219, 212, 17);
+    padding-left: 2%;
+    font-size: 33px;
+}
+.second {
+    color: white;
+    padding-left: 2%;
+    font-size: 18px;
+}
+.item3 {
+    color: white;
+    display: flex;
+    margin: 0px;
+    
+}
+.item3 img {
+    width: 270px;
+    height: 250px;
+    padding-top: 20px;
+}
+.logo img {
+    width: 125px;
+}
+
+.sixth h1 {
+    color: black;
+    width: 174px;
+    font-size: x-large;
+}
+button {
+    margin-left: 0px;
+}
+
+}
+/*screen size 768px check*/
+@media (max-width:991px) {
+
+body {
+    margin-left: 75px;
+    margin-right: 50px;
+    background-color: black;
+}
+
+    
+}
 
 
 
 
-
-
-
-
-   
 
 
