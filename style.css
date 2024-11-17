@@ -325,8 +325,6 @@ h1 {
 
 .item3 img {
     padding-top: 20px;
-    width: 250px;
-    height:200px ;
 }
 
 .item3 p {
@@ -364,7 +362,7 @@ h1 {
 /*screen size 576px cheak*/
 @media(max-width:767px){
     body {
-        margin-left:23px;
+        margin-left:10px;
         margin-right:50px;
         background-color:black;
     }
@@ -436,6 +434,77 @@ body {
 
     
 }
+@media(max-width:320px){
+     
+        body{
+            margin-left: 20px;
+            margin-right: 11px;
+            background-color: black;
+        }
+        ul{
+        padding-right:45px;
+    }
+        nav ul li {
+            display: flex;
+            padding-right: 6px;
+            list-style-type: none;
+            font-size: 8px;
+        }
+        .image img {
+            width: 100%;
+            height: 50vh;
+            background-size: cover;
+            background-position: center;  
+        }
+        .item2{
+            flex-direction: column;
+        }
+        .monkey1 img {
+            width: 120px;
+            
+        }
+        .monkey2 img {
+            width: 120px;
+            
+        }
+        .first {
+            color: rgb(219, 212, 17);
+            padding-left: 0%;
+            font-size: 25px;
+        }
+        .sixth h1 {
+            color: black;
+            width: 130px;
+            font-size: small;
+        }
+        button {
+            margin-left: 0px;
+            font-size: small;
+        }
+        .item3 {
+            color: white;
+            flex-direction: column;
+            margin: 0px;
+        }
+        .item7 {
+            font-size: 16px;
+            flex-direction: column;
+            color: whitesmoke;
+        }
+        .item9 {
+            flex-direction: column;
+            word-spacing: 4px;
+            padding-top: 4%;
+        }
+        .item0 {
+            color: white;
+            display: flex;
+            flex-direction: column;
+            font-size: 10px;
+            padding-left: 0%;
+        }
+}
+
 
 
 
